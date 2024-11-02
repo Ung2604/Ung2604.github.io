@@ -1,0 +1,101 @@
+<html lang="en-us">
+<head>
+<title>KELLY-COFIELD</title>
+</head>
+
+<style type="text/css">
+h3 {background-color: "green";}
+</style>
+
+<script language="javascript">
+
+	
+Nav4 = (document.layers) ? 1:0;
+IE4 = (document.all) ? 1:0;
+
+if(!IE4) {window.onerror=null}
+
+function change() {
+	if (document.body.clientWidth < 640) {
+		bgword.style.fontSize="48pt"
+		earth.style.width="25%"
+	}
+	else {
+		bgword.style.fontSize="64pt"
+		earth.style.width="35%"
+	}
+}
+
+window.onresize=change
+window.onload=change
+
+function grow(){
+    if(earthpic.width < 250){
+      x=window.setTimeout('grow()', 100)
+      earthpic.width=earthpic.width + 10	
+    }
+}
+
+window.onload = grow; 
+
+
+
+</script>
+
+<body background="images\bootbg.jpg">
+
+<h1 align="center"><font color="orange">KELLY-COFIELD FAMILY REUNION</font></h1>
+<br>
+<h3>Held August 1, 2009 in Tallahassee Florida.</h3>
+
+<h4><font color="GREEN">WOW!!!!!!!!,we did it,we had a family reunion. Their were family members who traveled from, Texas, Tennesse, North Carolina and various 
+    parts of Florida, Tampa, Miami and Jacksonville.
+    <br><br>
+    I was so happy seeing so many family members that I have'nt seen for more than twenty years.
+    I did'nt get a chance to personally meet and greet everyone as I would have like to, because I was so busy with the food, but I did have fun, 
+    rain soaked and all. I even tried to dance...HaHa....Emma Jean, girlllllllll, you still got it.
+    <br><br>
+    Awesome family history, presented by, Julie and Honey and thank you Steve for the pictures, now I can recap the moments.
+    <br><br>
+    Thanks, for great turnout, especially to all the out-of-towners.  See you in 2011.
+    <br><br>
+    All My Love.
+    <br>
+    <br>
+    Mecca</font></h4>
+
+
+<!--comment
+<H2><FONT COLOR= "RED"">This Web page is under construction. Please check back!</FONT></H2>
+-->
+
+
+<li><a href="names.html">Reunion Photo Gallery</a></li>
+
+<p><em>God Loves You and We Do, Too!</em>
+<br>
+
+<script type="text/javascript">
+var count = 1;
+while(count <=100){
+   document.writeln(count);
+   count++;
+}
+</script>
+
+
+</p>
+
+<div id="earth">
+<img src="pics\earth.jpg" id="earthpic" width="350">
+</div>
+
+
+<script language="javascript">
+<!--
+doTrans()
+//-->
+</script>
+
+
+</body></html>
