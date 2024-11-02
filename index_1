@@ -1,0 +1,68 @@
+<!-- I did not put a DOCTYPE declaration -->
+<html lang="en-us"> 
+<body>
+<head>
+<title>kelly-Cofield2</title>
+</head>
+
+<!-- <BODY BACKGROUND="images\egg shell.jpg"> -->
+<style type="text/css">
+    body {background-color: efefef;}
+    h3 {background-color: green;}
+	h6 {background-color: green;}
+</style>
+
+<h1 ALIGN="center"><FONT COLOR= "orange">KELLY-COFIELD FAMILY REUNION</FONT></h1>
+
+<h3><font color="orange">Event took place July 6, 2019 in Tallahassee Florida.</font></h3> 
+	
+     <ul>
+	   <li><a href="kelly-cofield1.html">A Link to 2009 Kelly-Cofield Family Reunion</a></li>
+	   <li><a href="names.html">Reunion Photos</a></li>
+	 </ul>
+	
+<h4><FONT COLOR= "green">Family Reunion Events. Photographer - Nathan Eric Williams(NewMusic) on Saturday, July 6, 2019.
+	<IMG SRC="pics\25.jpg" alt="The entire family photo of the reunion." width="900">
+	
+	<img src="pics\2009 Pics\cake.jpg" alt="Cake by Valerie Hill." width="400">
+	
+	<!--<video width="300" controls> 
+		<source src="video/20201010_182423.mp4" type="video/mp4">
+	</video> -->
+
+	<font color="black"> <h3> Hey Mecca! </h3>
+										 	
+    <BR>
+	<h3><FONT COLOR= "white"><em>It's A Family Thang!</em></FONT></h3>  
+</h4>
+
+<p><em>God Loves You and We Do, Too!</em>
+<BR>
+
+<h4><font color = "orange">A Miami Hurricanes Moment!</font></h4>
+<video width="300" controls>
+    <source src="video/20201010_182423.mp4" type="video/mp4">
+</video> 
+
+
+<script LANGUAGE="javascript">
+    <DIV ID="earth">
+        <IMG SRC="images/earth.jpg" ID="earth" WIDTH="0" />
+    </DIV>
+
+    var count = 1;
+    while(count <= 50){
+    document.writeln(count);
+    ++count;
+    }
+
+    function grow(){
+        if(earthpic.width< 250){
+        x=window.setTimeout('grow()', 100)
+        earthpic.width=earthpic.width + 10
+        }
+    }
+    
+</script>
+</body>
+</html>
